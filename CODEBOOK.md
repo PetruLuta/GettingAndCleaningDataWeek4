@@ -33,8 +33,7 @@ Axis							X			X axis
 								Z			Z axis
 								Y			Y axis
 								
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| VARIABLE NAME    | VARIABLE TYPE           | VARIABLE DESCRIPTION                                                                                     |
+| ---------------- |:-----------------------:| --------------------------------------------------------------------------------------------------------:|
+| ACTIVITY         | factor, 6 levels        | Activity performed by subject (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying) |
+| SUBJECT          | factor, 30 levels       | Subject ID 1..30                                                                                         |
