@@ -30,7 +30,7 @@ colnames(rawData) <- c("Subject", "Activity", as.vector(features$V2))
 
 # Extract only measurements on the mean and standard deviation
 toMatch <- c("Subject", "Activity", "\\bmean()\\b", "std()")
-matches <- unique (grep(paste(toMatch,collapse="|"), colnames(rawData), value=TRUE))
+matches <- unique (grep(paste(toMatch,collapse="|"), colnames(rawData), value = TRUE))
 selectData<-rawData[matches]
 
 # Remove unneded objects
@@ -45,4 +45,4 @@ tidyData<-aggregate(selectData[,3:68], list(selectData$Activity, selectData$Subj
 colnames(tidyData)[1:2]<-c("Activity","Subject")
 
 #Export data
-write.table(tidyData, "tidyData.csv", sep = ",")
+write.table(tidyData, "tidyData.txt", row.name = FALSE, sep = ",")
