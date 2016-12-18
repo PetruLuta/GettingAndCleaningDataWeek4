@@ -1,5 +1,5 @@
 # Getting And Cleaning Data Week4 Programming assignment
-
+====================
 This is the description of the steps performed in the run_analysis.R script file. All the transformations are performed on the dataset provided by the UCI Machine Learning Repository. This dataset represents the data collected from the accelerometers from the Samsung Galaxy S phone. All the work is done by one script in run_analysis.R file. This script was tested using R 3.3.1 and RStudio 0.99.903 on a Windows 10 x64 machine. No additional packages are required.
 ====================
 
