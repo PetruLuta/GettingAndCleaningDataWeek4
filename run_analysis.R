@@ -43,4 +43,6 @@ selectData$Activity<-activity_labels[selectData$Activity, "label"]
 # activity and each subject
 tidyData<-aggregate(selectData[,3:68], list(selectData$Activity, selectData$Subject), mean)
 colnames(tidyData)[1:2]<-c("Activity","Subject")
+
+#Export data
 write.table(tidyData, "tidyData.csv", sep = ",")
