@@ -1,6 +1,7 @@
-# Getting And Cleaning Data Week4 Programming assignment
+## Getting And Cleaning Data Week4 Programming assignment
 ====================
-## This is the description of the steps performed in the run_analysis.R script file. All the transformations are performed on the dataset provided by the UCI Machine Learning Repository. This dataset represents the data collected from the accelerometers from the Samsung Galaxy S phone. All the work is done by one script in run_analysis.R file. This script was tested using R 3.3.1 and RStudio 0.99.903 on a Windows 10 x64 machine. No additional packages are required.
+
+This is the description of the steps performed in the run_analysis.R script file. All the transformations are performed on the dataset provided by the UCI Machine Learning Repository. This dataset represents the data collected from the accelerometers from the Samsung Galaxy S phone. All the work is done by one script in run_analysis.R file. This script was tested using R 3.3.1 and RStudio 0.99.903 on a Windows 10 x64 machine. No additional packages are required.
 ====================
 
 1. Create and set the working directory.
@@ -14,8 +15,8 @@
 8. Replace activity IDs with descriptive names.
 9. Create an independent data set called tidyData with the average of each variable for each activity and each subject using aggregate function.
 10. Export the tidy data in csv format.
-
 =====================
+
 The dataset obtained in step 9 has the wide form and respects the principles of tidy data:
  - Each variable is in one column.
  - Each different observation of that variable is in a different row. 
