@@ -33,7 +33,7 @@ Axis							X			X axis
 								Z			Z axis
 								Y			Y axis
 								
-| VARIABLE NAME    | VARIABLE TYPE           | VARIABLE DESCRIPTION                                                                                     |
-| ---------------- |:-----------------------:| --------------------------------------------------------------------------------------------------------:|
-| ACTIVITY         | factor, 6 levels        | Activity performed by subject (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying) |
-| SUBJECT          | factor, 30 levels       | Subject ID 1..30                                                                                         |
+| VARIABLE NAME    | VARIABLE TYPE       | VARIABLE DESCRIPTION                                                                                     |
+| ---------------- |:--------------------| :--------------------------------------------------------------------------------------------------------|
+| ACTIVITY         | factor, 6 levels    | Activity performed by subject (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying) |
+| SUBJECT          | factor, 30 levels   | Subject ID 1..30                                                                                         |
