@@ -12,13 +12,13 @@ The final dataset contains only the averages by activity and by individual of th
 
 ===========
 
-VARIABLE NAME	VARIABLE TYPE				VARIABLE DESCRIPTION
-ACTIVITY		factor, 6 levels			Activity performed by subject (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying)
-SUBJECT			factor, 30 levels			Subject ID [1..30]
+VARIABLE NAME   VARIABLE TYPE               VARIABLE DESCRIPTION
+ACTIVITY        factor, 6 levels            Activity performed by subject (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying)
+SUBJECT         factor, 30 levels           Subject ID [1..30]
 
 Measurement variable names are constructed using the following principle:
 
-VARIABLE						NAME		DESCRIPTION
+VARIABLE                        NAME        DESCRIPTION
 Prefix							t			time domain signals
 								f			frequency domain signals
 Acceleration signal type 		Body		body acceleration signal
