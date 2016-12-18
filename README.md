@@ -15,7 +15,7 @@ This is the description of the steps performed in the run_analysis.R script file
 7. Remove unneeded objects from previous steps.
 8. Replace activity IDs with descriptive names.
 9. Create an independent data set called tidyData with the average of each variable for each activity and each subject using aggregate function.
-10. Export the tidy data in csv format.
+10. Export the tidy data in .txt format.
 
 =====================
 
