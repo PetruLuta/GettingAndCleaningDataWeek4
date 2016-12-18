@@ -12,28 +12,26 @@ The final dataset contains only the averages by activity and by individual of th
 
 ===========
 
-VARIABLE NAME   VARIABLE TYPE               VARIABLE DESCRIPTION
-ACTIVITY        factor, 6 levels            Activity performed by subject (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying)
-SUBJECT         factor, 30 levels           Subject ID [1..30]
-
-Measurement variable names are constructed using the following principle:
-
-VARIABLE                        NAME        DESCRIPTION
-Prefix							t			time domain signals
-								f			frequency domain signals
-Acceleration signal type 		Body		body acceleration signal
-								Gravity		gravity acceleration signal
-Sensor							Acc			accelerometer sensor
-								Gyro		gyroscope sensor
-Signal type						Jerk		jerk signal obtained from the body linear acceleration and angular velocity
-Signal strength					Mag			magnitude of the signal calculated using the Euclidean norm
-Variable estimation	method		mean()		mean value
-								std()		standard deviation
-Axis							X			X axis
-								Z			Z axis
-								Y			Y axis
-								
 | VARIABLE NAME    | VARIABLE TYPE       | VARIABLE DESCRIPTION                                                                                     |
 | ---------------- |:--------------------| :--------------------------------------------------------------------------------------------------------|
 | ACTIVITY         | factor, 6 levels    | Activity performed by subject (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying) |
 | SUBJECT          | factor, 30 levels   | Subject ID 1..30                                                                                         |
+
+Measurement variable names are constructed using the following principle:
+
+| VARIABLE                     | NAME        | DESCRIPTION                                                                 |
+| ---------------------------- |:------------| :---------------------------------------------------------------------------|
+| Prefix                       | t           | time domain signals                                                         |
+|                              | f           | frequency domain signals                                                    |
+| Acceleration signal type     | Body        | body acceleration signal                                                    |
+|                              | Gravity     | gravity acceleration signal                                                 |
+| Sensor                       | Acc         | accelerometer sensor                                                        |
+|                              | Gyro        | gyroscope sensor                                                            |
+| Signal type                  | Jerk        | jerk signal obtained from the body linear acceleration and angular velocity |
+| Signal strength              | Mag         | magnitude of the signal calculated using the Euclidean norm                 |
+| Variable estimation method   | mean()      | mean value                                                                  |
+|                              | std()       | standard deviation                                                          |
+| Axis                         | X           | X axis                                                                      |
+|                              | Y           | Y axis                                                                      |
+|                              | Z           | Z axis                                                                      |
+								
