@@ -1,7 +1,7 @@
 Code Book
 ===========
 
-This is a description of the variables in the tidyData.csv dataset. This dataset was obtained by transforming the original dataset containing measurements from Samsung Galaxy S accelerometers provided by UCI Machine Learning Repository. The following transformations were applied on the original data:
+This is a description of the variables in the tidyData.csv dataset. This dataset was obtained by transforming the original dataset containing measurements from Samsung Galaxy S accelerometers provided by UCI Machine Learning Repository. The following transformations were applied to the original data:
 
 1. The training and test data were merged into one dataset.
 2. Only the measurements on the mean and standard deviation were selected.
